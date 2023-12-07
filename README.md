@@ -9,7 +9,7 @@
 
 All the models in this project were evaluated on the following datasets:
 
-- [DACON](zhttps://dacon.io/en/competitions/official/235954/data) (DACON Site)
+- [DACON](https://dacon.io/en/competitions/official/235954/data) (DACON Site)
 
 
 ## How to run
@@ -39,7 +39,7 @@ pip install -r requirements.txt
  
 ## How to run
 ```
-python 
+sh script.sh
 ```
 
 
