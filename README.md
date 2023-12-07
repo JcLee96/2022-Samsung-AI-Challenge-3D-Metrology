@@ -32,7 +32,7 @@ pip install -r requirements.txt
  
 ## How to run
 ```
-sh script.sh
+sh train.sh
 ```
 
 
