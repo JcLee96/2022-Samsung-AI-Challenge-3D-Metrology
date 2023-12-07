@@ -29,13 +29,6 @@ conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit
 pip install -r requirements.txt
 
 ```
-
-## Repository
-```
-/config: data and model parameter setting
-/scripts: .sh file
-/src: data load and augmentation, model code
-```
  
 ## How to run
 ```
