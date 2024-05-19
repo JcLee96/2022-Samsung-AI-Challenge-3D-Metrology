@@ -18,7 +18,7 @@ Install dependencies
 
 ```bash
 # clone project
-git clone https://github.com/Leejucheon96/2022-AI-Samsung-Challenage.git
+git clone https://github.com/JcLee96/2022-AI-Samsung-Challenage.git
 
 
 # [OPTIONAL] create conda environment
