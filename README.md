@@ -12,7 +12,7 @@ All the models in this project were evaluated on the following datasets:
 - [DACON](https://dacon.io/en/competitions/official/235954/data) (DACON Site)
 
 
-## How to run
+## Environment
 
 Install dependencies
 
