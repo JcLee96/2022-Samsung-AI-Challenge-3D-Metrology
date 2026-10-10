@@ -1,0 +1,18 @@
+# Final competition setting (train.sh in the original solution).
+data_dir: data            # contains simulation_data/ and test/ from DACON
+output_dir: outputs/final # checkpoints, stats.json, submission.zip
+
+seed: 5
+epochs: 50
+lr: 1.0e-3                # Adam, constant
+batch_size: 512
+infer_batch_size: 512
+num_workers: 16
+val_ratio: 0.2            # last 20% of the sorted simulation SEM list
+
+model_name: efficientnet-b0
+k_ordinal_class: 17       # uniform depth bins of width 10
+
+sem_max: 212.0            # SEM input scaled by 1/212
+depth_max: 170.0          # depth target scaled by 1/170
+output_depth_max: 212.0   # submission depth = sigmoid output * 212 (as in the final submission)

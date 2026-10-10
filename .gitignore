@@ -1,0 +1,21 @@
+# data and outputs
+data/
+result/
+outputs/
+log/
+wandb/
+*.zip
+*.pth
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
